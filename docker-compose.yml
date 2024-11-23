@@ -10,7 +10,7 @@ services:
       sh -c "npm install && exec npm run start"
     networks: 
       main: 
-        ipv4_address: 172.18.0.2
+        ipv4_address: 172.18.20.2
 networks:
   main:
     name: inertia
