@@ -8,6 +8,7 @@ services:
       - stack.env
     entrypoint: >
       sh -c "npm install && exec npm run start"
+    restart: unless-stopped
     networks: 
       main: 
         ipv4_address: 172.18.20.2
