@@ -7,7 +7,7 @@ WORKDIR /usr/src/app
 COPY . /usr/src/app/
 
 # Install dependencies
-RUN yarn --immutable
+RUN yarn
 
 # Build the bot
 RUN yarn build
