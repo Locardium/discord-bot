@@ -226,4 +226,5 @@ setInterval(async () => {
         code_db.data.codes.splice(index);
 
     });
+    console.log('Checked recovery codes');
 }, 60000);
